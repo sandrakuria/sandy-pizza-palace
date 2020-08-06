@@ -28,6 +28,3 @@ If you have any queries concerning the web application,feel free to contact me v
 ### License
 *MIT license*
 Copyright (c) 2020 
-
-
-
