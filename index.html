@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title> SANDY PIZZA PALACE!!!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="nav navbar-expand-sm bg-dark fixed-top justify-content-center">
+    <a class="navbar-brand" color-orange>SANDY PIZZA PALACE</a>   
+  </nav>
+  <div class="container">
+    <div id="home"></div>
+    <div class="card">
+      <div class="card-header">
+        <div class="jumbotron">SANDY PIZZA PALACE! <br> <span class="header">WE KEEP OUR EXPERIENCE WITH US A PRIORITY</span>
+          <span class="badge badge-primary">WELCOME ALL..ENJOY!!!</span> </div>
+      </div>
+      <div class="card-body">
+        <div id="about"></div>
+        <h1>About us</h1>
+        <div class="p">
+          <p> Sandy pizza palace has been around for over 20 years.it offers a unique dining experience for our customers which 
+              you will never see in any other pizza restaurant.it offers home delivery services from morning to evening.
+              pizza is no doubt one of the best food in the world and therefore we decided to showcase our pizza making skills by starting this 
+              restaurant so as to show the peole how much we love this meal just like you do!!!
+          </p>
+        </div>
+        <div id="Types"></div>
+        <h1>Types</h1>
+        <div id="image">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image1">
+                <img src="images/download (1).jpeg" alt="" height="355px" width="455px">
+                <p>cheezy pizza</p>
+              </div>
+            </div> <br>
+            <div class="col-md-6">
+              <div class="image2">
+                <img src="images/download (2).jpeg" alt="" height="355px" width="455px">
+                <p>stuffed crust pizza</p>
+              </div>
+            </div> <br>
+            <div class="col-md-6">
+              <div class="image3">
+                <img src="images/download (3).jpeg" alt="" height="355px" width="455px">
+                <p>peporoni pizza</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image4">
+                <img src="images/How-is-Gluten-Free-Pizza-Made-1000x530.jpeg" alt="" height="350px" width="450px">
+                <p>black olive topping pizza</p>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div id="price per pizza"></div>
+        <h1>place your order!!!</h1>
+        <!-- PIZZA SIZE -->
+        <div class="body2">
+          <div class="size of the pizza"> <br>
+            <label for="sel1">Select pizza size:</label>
+            <select name="size" id="size">
+              <option value="500" id="small">Small @500</option>
+              <option value="800" id="medium">Medium @800</option>
+              <option value="1000" id="large">Large @1000</option>
+            </select>
+          </div> <br>
+          <!-- CRUST -->
+          <div class="form-group">
+            <label for="sel1">crust:</label>
+            <select name="crust" id="crust">
+              <option value="600">Crispy @600</option>
+              <option value="550">Stuffed @850</option>
+              <option value="700">Gluten-free @700</option>
+            </select>
+          </div> <br>
+          <!-- TOPPINGS -->
+          <div class="topping">
+            <label for="sel1">Pizza Toppings:</label>
+            <select name="toppings" id="toppingone">
+              <option value="150" id="black olives">blackolives</option>
+              <option value="140" id="bacon">bacon</option>
+              <option value="130" id="pineapple">Pineapple</option>
+              <option value="120" id="peporonni">Peporroni</option>
+              <option value="110" id="extra cheese">extracheese</option>
+              <option value="110" id="mushrooms">mushrooms</option>
+            </select>
+          </div> <br>
+          <!-- PLACE ORDER -->
+          <!-- <div class="placeorder">
+        <input type="button" id="placeorder" value="PLACE ORDER">
+        </div> <br> -->
+          <!-- option to order as many pizzas -->
+          <label for="sel1">No. of Pizza's:</label>
+          <input type="number" name="order" id="numberofpizza"> <br><br>
+          <!-- option to have the pizza delivered -->
+          <form action="" id="delivery" </form>
+            Is the pizza for delivery?:
+            <button name="yes" type="submit" id="yes" value="fav_yes">YES</button>
+            <button name="no" type="submit" value="fav_no">NO</button>
+          </form> <br>
+          <!-- checkout button -->
+          <button type="button" class="btn btn-success" id="submit" onclick="calctotalPrice()">checkout</button>
+        </div>
+        <!-- FOOTER -->
+        <div id="contacts"></div>
+        <div class="card-footer">
+          <div class="container-fluid footer row">
+            <div class="col-md-4 Get in touch">              
+              <p><a href="https://mail.google.com" class="fa fa-email"> info@sandypizzapalace@gmail.com</a> </p>
+            </div>
+            <div class="col-md-4 social icons">
+              <div id="contacts" class="small-divs">
+                <p> <strong>WORKING HOURS:</strong></p>
+                <p><a href="#" class=""> </a>Sunday: Closed </p>
+                <p><a href="#" class=""> </a>Monday: 8.00 am - 8.00pm </p>
+                <p><a href="#" class=""> </a>Tuesday: 8.00 am - 8.00pm </p>
+                <p><a href="#" class=""> </a>Wednesday: 8.00 am - 8.00pm </p>
+                <p><a href="#" class=""> </a>Thursday: 8.00 am - 8.00pm </p>
+                <p><a href="#" class=""> </a>Friday: 8.00 am - 9.00pm </p>
+                <p><a href="#" class=""> </a>saturday and public holidays: 10.00 am - 5.30pm </p>
+              </div>
+            </div>
+            <div class="col-md-4 social icons">
+              <div id="contacts" class="small-divs">
+                <p> <strong>Reach out to us:</strong></p>
+                <p><a href="#" class="fa fa-facebook"> sandy pizza palace</a> </p>
+                <p><a href="#" class="fa fa-twitter"> sandy pizza palace</a> </p>               
+                <p><a href="#" class="fa fa-linkedin">sandy pizza palace</a> </p>                
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

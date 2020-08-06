@@ -1,0 +1,76 @@
+.jumbotron {
+    background-image: url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40%;
+    color: rgb(187, 116, 116);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 70px;
+  }
+  .header {
+    padding-top: 30%;
+  }
+  .body {
+    background-image: url(images/download\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    float: left;
+    overflow-x: hidden;
+  }
+  #image {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  h1 {
+    font-family: fantasy;
+    color: purple;
+  }
+  .body2 {
+    background-color: rgb(37, 62, 131);
+    padding-bottom: 3%;
+    font-size: 17px;
+    color: rgb(189, 30, 30);
+    font-family: fantasy;
+  }
+  .p {
+    background-color: whitesmoke;
+    font-family: cursive;
+  }
+  .copyright {
+    text-align: center;
+    background-color: darkgray;
+  }
+  /* The navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+  }
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  /* Main content */
+  .main {
+    margin-top: 30px;
+    /* Add a top margin to avoid content overlay */
+  }
